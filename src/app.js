@@ -1,6 +1,6 @@
 // src/app.js
 import express from 'express';
-import userWalletController from './models/user/controllers/user-wallet.controller.js';
+import userWalletController from './modules/user/controllers/user-wallet.controller.js';
 
 const app = express();
 app.use(express.json());

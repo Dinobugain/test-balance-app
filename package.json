@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "migrate": "node src/models/database/migrate.js",
+    "migrate": "node src/modules/database/migrate.js",
     "test": "node src/test/balance.test.js"
   },
   "author": "",
