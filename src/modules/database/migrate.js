@@ -3,7 +3,7 @@ import { sequelize } from './database.js';
 
 const umzug = new Umzug({
   migrations: {
-    glob: 'src/models/database/migrations/*.js',
+    glob: 'src/modules/database/migrations/*.js',
   },
   context: sequelize.getQueryInterface(),
   storage: new SequelizeStorage({ sequelize }), 
